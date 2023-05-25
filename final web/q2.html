@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>mental health quiz</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+<link rel="stylesheet" href="question.css">
+<script src="script-dating.js" defer></script>
+</head>
+<body>
+<img src="jdt.png" width="115" height="140"/>
+<div class="jdt"></div>
+<div class="main">
+
+    <h1> Are you scared for no reason?</a></h1><br>
+    <h2> 2/15</h2>
+    <input type="radio" name="q1" id="correct1">Little or no time <br>
+    <input type="radio" name="q1">Part of the time <br>
+    <input type="radio" name="q1">Quite a lot <br>
+    <input type="radio" name="q1">Most or all of the time <br>
+
+    <ul id="answers"></ul>
+    <div style="clear: both"></div>
+    <button id="button" class="button" onclick="location.replace('q3.html') ">CONTINUE</button>
+
+</body>
+
+<style>
+body{
+background-color:rgba(44, 127, 109, 0.8);
+}   
+
+img{     
+    position:absolute;  
+    left:500px;
+    top:640px;
+    z-index: 2;
+  }
+
+  button{     
+  position:absolute;   
+  left:630px;
+  top:540px;
+}
+
+.jdt {
+    height: 6vh;
+    width: 60vh;
+    background-image: url('./j2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 86vh;
+    left: 34vw;
+    z-index: 1;
+}
+</style>
